@@ -1,0 +1,166 @@
+
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Basic Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cecbcb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Smooth transition for theme change */
+  color:  rgb(63, 57, 57); /* Text color */
+
+}
+
+/* Main Content Section */
+.content {
+  max-width: 90%;
+  height: 8rem;
+  width: 100%;
+  color: rgb(223, 223, 212);
+  background-color: rgb(63, 57, 57);
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(53, 52, 66, 0.842);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-family: monospace;
+}
+
+/* Social Media Section */
+.social-media {
+  padding: 10px;
+  background-color: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  max-width: 90%;
+}
+
+.social-icon {
+  height: 25px;
+  padding: 5px 10px;
+
+}
+
+/* Responsive Main Content Section */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  } 
+}
+
+
+/* Responsive Social Media Section */
+@media (max-width: 600px) {
+  .social-icon {
+    padding: 5px 10px;
+  }
+  .social-media {
+    max-width: 90%;
+  }
+  .social-icon {
+    height: 25px;
+  }
+}
+
+/* Basic styles for the quote container and button */
+
+.quote-container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#quote-display {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#refresh-btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: hsla(288, 90%, 28%, 0.815);
+  color: rgb(223, 223, 212);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#refresh-btn:hover {
+  background-color: #1f5383;
+}
+
+
+/* Theme Toggle Button */
+.dark-theme {
+  background-color: #333; /* Dark background */
+  color:  rgb(223, 223, 212); /* Light text color for dark theme */
+}
+
+/* Position theme toggle button */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Style the joke container and buttons */
+.quote-container {
+  text-align: center;
+  margin-top: 20%;
+}
+
+#quote-display {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#refresh-btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: hsla(289, 8%, 26%, 0.815);
+  color:  rgb(223, 223, 212);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(120, 117, 151, 0.842);
+}
+
+#refresh-btn:hover {
+  background-color: hsla(288, 71%, 21%, 0.815);
+}
+
+
+
+
+
+
